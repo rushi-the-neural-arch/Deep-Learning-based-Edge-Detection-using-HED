@@ -9,3 +9,6 @@ Command to run the edge detection model on image
 
     python edge_detector.py --input image.png --prototxt deploy.prototxt --caffemodel hed_pretrained_bsds.caffemodel
     --width 300 --height 300 
+
+
+Reference : https://www.pyimagesearch.com/2019/03/04/holistically-nested-edge-detection-with-opencv-and-deep-learning/
