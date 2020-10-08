@@ -2,6 +2,12 @@
 
 Command to run the edge detection model on video
 
+    python detect_edges_video.py --edge-detector hed_model
+    
+    
+    or
+    
+
     python edge.py --input video.mp4 --prototxt deploy.prototxt --caffemodel hed_pretrained_bsds.caffemodel 
     --width 300 --height 300
 
